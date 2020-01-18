@@ -59,6 +59,6 @@ def update(i):
     return line, line_exact, title,
 
 anim = FuncAnimation(fig, update, frames=T, interval=1, repeat=False, blit=True)
-anim.save('CHM_z13.mp4', fps=30)
+# anim.save('CHM_z13.mp4', fps=30)
 
 plt.show()
