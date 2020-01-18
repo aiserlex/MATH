@@ -46,7 +46,7 @@ ax.set_xlabel('x')
 ax.set_ylabel('u(t, x)')
 
 line, = ax.plot([], [], 'b', lw=1, label="численное")
-line_exact, = ax.plot([], [], ':r', lw=3, label="точное")
+line_exact, = ax.plot([], [], ':r', lw=3, label="аналитическое")
 title = ax.text(0.5, 0.92, "", bbox={'facecolor':'w', 'alpha':0.5, 'pad':5},
                 transform=ax.transAxes, ha="center")
 ax.legend()
